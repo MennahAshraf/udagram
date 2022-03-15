@@ -39,7 +39,7 @@
 
   - creating postgres database using rds service 
   - put database link as endpoint in api code 
-  - deploy api on elastic beanstalk using eb-cli
+  - creating environment for api on elastic beanstalk using eb-cli
   - put server link in frontend code 
   - create s3 bucket for storing frontend 
   - in circle cli :
@@ -50,7 +50,8 @@
                     - install dependencies for backend
                     - build frontend
                     - build blackend
-                    - deploy frontend in created s3 bucket  
+                    - deploy frontend in created s3 bucket 
+                    - deploy backend in elastic beanstalk 
    
 ### Installation
 
